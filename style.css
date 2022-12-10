@@ -1,0 +1,63 @@
+body{
+    background: #232323;
+    color: white;
+}
+/* -------------Canvas--------------- */
+canvas {
+    background: #232323;
+    width: 99%;
+    height: 99%;        
+    position: absolute;
+}
+
+/* -------------Main--------------- */
+.container {
+    position: absolute;
+    top: 30%;
+    left: 37%;;
+    font-size: 1.5em;
+    z-index: 1;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+#i1:before{
+    content: '<html>';
+        font-family: 'La Belle Aurore';
+/* color: #515152; */
+color: #6b6b6d;
+font-size: 1rem;
+position: absolute;
+margin-top: 0.5rem;
+margin-left: 1rem;
+}
+#i1:after {
+content: '<body>';
+font-family: 'La Belle Aurore';
+/* color: #515152; */
+color: #6b6b6d;
+font-size: 1rem;
+position: absolute;
+margin-top: 1.8rem;
+margin-left: 1.4rem;
+}
+#i2:before{
+content: '</html>';
+font-family: 'La Belle Aurore';
+/* color: #515152; */
+color: #6b6b6d;
+font-size: 1rem;
+position: absolute;
+margin-top: 54rem;
+margin-left: 110rem;
+}
+#i2:after {
+content: '</body>';
+font-family: 'La Belle Aurore';
+/* color: #515152; */
+color: #6b6b6d;
+font-size: 1rem;
+position: absolute;
+margin-top: 55.3rem;
+margin-left: 110.8rem;
+}
